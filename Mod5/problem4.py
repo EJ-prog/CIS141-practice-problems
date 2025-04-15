@@ -8,3 +8,13 @@ Format your output so that each row corresponds to multiplying by a specific num
 # 4   8   12  16  20
 # 5   10  15  20  25
 '''
+
+for i in range (1,6):
+    line = "# "
+    for j in range(1,6):
+        line = line + str(i * j)
+        if ((i*j) < 10):
+            line = line + "   "
+        else:
+            line = line + "  "
+    print(line)
