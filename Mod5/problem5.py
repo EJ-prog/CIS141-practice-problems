@@ -10,3 +10,9 @@ You entered 7
 Enter a number (0 to stop): 0
 Exiting...
 '''
+
+number = int(input("Enter a number (0 to stop): "))
+while (number != 0):
+    print("You entered ", number)
+    number = int(input("Enter a number (0 to stop): "))
+print("Exiting...")
