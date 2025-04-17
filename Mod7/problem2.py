@@ -3,7 +3,7 @@
 (reads the same forward and backward, ignoring case). The function should
 returns either True or False.
 '''
-#ask about ignoring spaces
+#ask about ignoring spaces, and other punctuation
 def is_palindrome(s):
     s = s.lower()
     i = 0
