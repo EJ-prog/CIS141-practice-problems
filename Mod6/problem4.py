@@ -10,7 +10,7 @@ positives = 0
 for nums in numbers:
     if (nums < 0):
         negatives += 1
-    else:
+    elif (nums > 0):
         positives += 1
 print(f"There are {negatives} negative numbers in the list.")
 print(f"There are {positives} positive numbers in the list.")
