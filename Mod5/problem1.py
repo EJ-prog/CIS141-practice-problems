@@ -7,7 +7,7 @@ Print the final sum.
 n = int(input("Please give me a positive number: "))
 loop = 1
 sum = 0;
-while (loop < n):
+while (loop <= n):
   sum += loop
   loop = loop + 1
 print(sum)
