@@ -3,3 +3,9 @@
 it. Write a Python script that reads a file gardening_tips.txt and prints
 out each tip one by one.
 '''
+
+line_num = 1
+with open("gardening_tips.txt", "r") as file:
+    for line in file:
+        print(line_num, line, end="")
+        line_num += 1
