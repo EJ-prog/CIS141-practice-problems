@@ -5,3 +5,11 @@ should:
 - Save each entry to hiking_log.txt (each hike on a new line)
 - When the user presses 0, exit the loop & print the contents of hiking_log.txt
 '''
+
+with open("hiking_log.txt", "a") as file:
+    user = ""
+    while (user != 0):
+        user = input("What is the name of the hike and its distance? (Type 0 to exit) ")
+        if(user == 0 or user == "0"):
+            break
+        file.write(user)
