@@ -13,3 +13,6 @@ with open("hiking_log.txt", "a") as file:
         if(user == 0 or user == "0"):
             break
         file.write(user)
+
+with open("hiking_log.txt", "r") as file:
+    print(file.read())
